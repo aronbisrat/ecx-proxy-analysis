@@ -1,0 +1,15 @@
+name: ecx-proxy
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - notebook
+  - pip
+  - pip:
+    - openpyxl
+    - requests
