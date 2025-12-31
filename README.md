@@ -1,3 +1,4 @@
+ECX...... (Ethiopia Commodity Exchange)
 ## ECX Proxy Market Analysis – Coffee Arabica
 
 This project analyzes Arabica coffee price trends over the last 12 months using World Bank commodity price data as a proxy for ECX market behavior in Ethiopia.
