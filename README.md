@@ -16,6 +16,9 @@ Quick start
 1) Open the notebook in Colab (one click):
    https://colab.research.google.com/github/aronbisrat/ecx-proxy-analysis/blob/main/ecx-proxy-analysis-ethiopia-commodity-prices-las.ipynb
 
+### ? Coffee Arabica Price Trend (Last 12 Months)
+![Coffee Arabica Price Trend](assets/images/coffee-arabica-price-trend.png)
+
 2) Run locally:
    git clone https://github.com/aronbisrat/ecx-proxy-analysis.git
    cd ecx-proxy-analysis
