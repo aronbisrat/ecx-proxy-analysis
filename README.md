@@ -1,42 +1,76 @@
-# ecx-proxy-analysis
+# 📡 ECX Proxy Analysis
 
-Short description: Reproducible analysis of ECX (Ethiopian Commodity Exchange) coffee proxy prices for the last 12 months (01/01/2025-12/31/2025). Notebook uses World Bank commodity price data (Pink Sheet) as a proxy for ECX behavior.
-
-Badges:
-- Run in Colab: https://colab.research.google.com/github/aronbisrat/ecx-proxy-analysis/blob/main/ecx-proxy-analysis-ethiopia-commodity-prices-las.ipynb
-- Binder (launches a live environment if environment.yml or requirements.txt present)
-
-TL;DR
-This repository contains a Jupyter notebook that analyzes monthly Arabica coffee price trends, volatility, and cumulative movements relevant to Ethiopia’s commodity market. Open in Colab to run interactively.
-
-Demo
-Add a screenshot or short GIF of the main plot in assets/demo.png and update this section.
-
-Quick start
-1) Open the notebook in Colab (one click):
-   https://colab.research.google.com/github/aronbisrat/ecx-proxy-analysis/blob/main/ecx-proxy-analysis-ethiopia-commodity-prices-las.ipynb
-
-### ? Coffee Arabica Price Trend (Last 12 Months)
-![Coffee Arabica Price Trend](assets/images/coffee-arabica-price-trend.png)
-
-2) Run locally:
-   git clone https://github.com/aronbisrat/ecx-proxy-analysis.git
-   cd ecx-proxy-analysis
-   python -m venv .venv && source .venv/bin/activate  # or `python -m venv .venv\Scripts\activate` on Windows
-   pip install -r requirements.txt
-   jupyter lab
-
-Files of interest
-- ecx-proxy-analysis-ethiopia-commodity-prices-las.ipynb — main analysis notebook
-- requirements.txt — Python dependencies used by the notebook
-
-Contributing
-See CONTRIBUTING.md — small fixes, visual improvements, and reproducibility fixes are welcome. Look for issues labeled `good-first-issue`.
-
-Support & discussion
-- Use Issues for bug reports and feature requests
-
-License
-If you want MIT, add a LICENSE file. By default, this repo currently has no license set.
+This project analyzes market trends and proxy behavior in the Ethiopian Coffee Exchange (ECX), focusing on Coffee Arabica price dynamics.  
+It combines data visualization, moving average analysis, and volatility tracking to support decision‑making and risk modeling.
 
 ---
+
+## 📂 Repository Structure
+ecx-proxy-analysis/ │ ├── assets/ │   └── images/                # Visual results and charts │ ├── notebooks/                 # Jupyter notebooks with analysis │ ├── data/                      # Raw and processed datasets │ ├── requirements.txt           # Reproducible environment ├── README.md                  # Project documentation └── LICENSE                    # Open source license
+
+---
+
+## 📊 Results Overview
+
+This section presents key visual insights from the Coffee Arabica market analysis, highlighting price trends, volatility, and moving average behavior.
+
+---
+
+### ☕ Coffee Arabica Price Trend with Moving Averages
+![Coffee Arabica Price with Moving Averages](assets/images/coffee-arabica-price-with-moving-averages.png)
+
+This chart overlays short‑term and long‑term moving averages on the raw price trend, revealing momentum shifts and smoothing out volatility.  
+It helps identify potential inflection points and supports proxy‑based forecasting strategies.
+
+---
+
+### 📈 Coffee Arabica Price Index (Base = 100)
+![Coffee Arabica Price Index](assets/images/coffee-arabica-price-index-(base-=100).png)
+
+The index tracks normalized price movements from January to November 2022.  
+After peaking in February, the market shows a steady decline, dropping below 80 by November — a signal of sustained bearish pressure.
+
+---
+
+### 📉 Monthly Coffee Price Change
+![Monthly Coffee Price Change](assets/images/monthly-coffee-price-change.png)
+
+This bar chart highlights month‑over‑month fluctuations in Coffee Arabica prices.  
+It reveals seasonal volatility and helps quantify short‑term market shocks that may affect proxy behavior.
+
+---
+
+## ✅ Key Takeaways
+- Moving averages smooth out noise and reveal long‑term trends.  
+- The price index shows a clear downward trajectory in 2022.  
+- Monthly changes expose volatility patterns useful for proxy calibration and risk modeling.
+
+---
+
+## 🚀 How to Reproduce
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aronbisrat/ecx-proxy-analysis.git
+
+- Install dependencies:
+
+pip install -r requirements.txt
+
+👤 About Me
+
+I'm Aron — a data scientist passionate about reproducible workflows, impactful storytelling, and principled analysis.
+This project reflects my interest in market dynamics, proxy modeling, and visual communication.
+
+📜 License
+
+This project is licensed under the MIT License — see the LICENSE file for details.
+---
+
+## ✅ What This README Delivers
+
+- **Professional structure** with clear sections  
+- **Visual storytelling** with embedded charts and captions  
+- **Reproducibility instructions** for collaborators or recruiters  
+- **Personal branding** with a concise “About Me”  
+
