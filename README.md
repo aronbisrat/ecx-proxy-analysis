@@ -15,17 +15,23 @@ ecx-proxy-analysis/ │ ├── assets/ │   └── images/               
 This section presents key visual insights from the Coffee Arabica market analysis, highlighting price trends, volatility, and moving average behavior.
 
 ---
+### ☕ Coffee Arabica Price Trend (Last 12 Months)
+![Coffee Arabica Price Trend](assets/images/coffee-arabica-price-trend.png)
 
-### ☕ Coffee Arabica Price Trend with Moving Averages
-![Coffee Arabica Price with Moving Averages](assets/images/coffee-arabica-price-with-moving-averages.png)
+This chart illustrates the monthly price fluctuations of Coffee Arabica over the past year, highlighting seasonal volatility and long‑term market trends.
+
+### ☕ Coffee Arabica Price with Moving Averages
+![Coffee Arabica Price with Moving Averages](assets/images/coffee-arabica-price-moving-averages.png)
+
 
 This chart overlays short‑term and long‑term moving averages on the raw price trend, revealing momentum shifts and smoothing out volatility.  
 It helps identify potential inflection points and supports proxy‑based forecasting strategies.
 
 ---
 
-### 📈 Coffee Arabica Price Index (Base = 100)
-![Coffee Arabica Price Index](assets/images/coffee-arabica-price-index-(base-=100).png)
+### 📈 Coffee Arabica Price Index
+![Coffee Arabica Price Index](assets/images/coffee-arabica-price-index.png)
+
 
 The index tracks normalized price movements from January to November 2022.  
 After peaking in February, the market shows a steady decline, dropping below 80 by November — a signal of sustained bearish pressure.
@@ -34,6 +40,7 @@ After peaking in February, the market shows a steady decline, dropping below 80 
 
 ### 📉 Monthly Coffee Price Change
 ![Monthly Coffee Price Change](assets/images/monthly-coffee-price-change.png)
+
 
 This bar chart highlights month‑over‑month fluctuations in Coffee Arabica prices.  
 It reveals seasonal volatility and helps quantify short‑term market shocks that may affect proxy behavior.
